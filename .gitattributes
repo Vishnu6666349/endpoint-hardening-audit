@@ -1,0 +1,12 @@
+# Default behavior
+# See https://github.com/github/linguist
+yarn.lock linguist-generated
+Cargo.lock linguist-generated
+*.py linguist-detectable 
+node_modules/* linguist-vendored
+
+public/**/*.html linguist-vendored
+
+dist/* linguist-vendored
+*.json linguist-detectable=false
+* text=auto eol=lf
