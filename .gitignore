@@ -1,0 +1,5 @@
+.venv/
+htmlcov/
+*.py[cod]
+build/
+dist/
